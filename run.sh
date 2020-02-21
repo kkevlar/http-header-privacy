@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "this script does nothing"
+./python_scripts/parse.py start-data.txt data.csv
