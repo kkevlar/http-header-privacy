@@ -35,11 +35,16 @@ def parse():
 
 	return fileText
 
+def generate_csv(fileText):
+	outfile = open(sys.argv[2], "w")
+	writestr = ""
 
-	# outfile = open(sys.argv[2], "w")
-	# writestr = ""
+	for i in range(0, len(fileText)):
+		for j in range(0, len(fileText[i]) - 1):
+			writestr += fileText[i][j] + "~"
+		writestr += fileText[i][len(fileText[i]) - 1] + "\n"
 
-	# outfile.write(writestr)
-	# outfile.close()
+	outfile.write(writestr)
+	outfile.close()
 
-print(parse())
+generate_csv(parse())
