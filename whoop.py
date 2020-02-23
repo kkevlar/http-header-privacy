@@ -27,6 +27,8 @@ def group_users(raw_rows):
     return groups
 
 
-print(functools.reduce(lambda a,b : a if len(a) > len(b) else b,group_users(data)))
+l = list(functools.reduce(lambda a,b : a if len(a) > len(b) else b,group_users(data)))
 
+for e in l:
+    print(e)
 
