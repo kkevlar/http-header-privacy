@@ -1,15 +1,15 @@
-from cons import cons, cdr, car
 import csv
 import functools
 
 same_user_indecies = [1,2,3,5,11]
 
-datafile = open('start-data.txt', 'r')
+datafile = open('2data.txt', 'r')
 datareader = csv.reader(datafile, delimiter='~')
 data = []
-
 for row in datareader:
     data.append(row)    
+
+data = filter(lambda row: len(row) >= 15, data)
 
 def cols_match(indecies,a, b):
     return all(map(lambda index: a[index] == b[index], indecies))
