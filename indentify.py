@@ -1,9 +1,10 @@
 import csv
 import functools
+import sys
 
 same_user_indecies = [1,2,3,5,11]
 
-datafile = open('3data.txt', 'r')
+datafile = open(sys.argv[1], 'r')
 datareader = csv.reader(datafile, delimiter='~')
 data = []
 for row in datareader:
@@ -36,7 +37,7 @@ uniq_users = group_users(same_user, data)
 print("Discovered %d unique users!" % len(uniq_users))
 
 for user in uniq_users:
-    print(user[0][1:4])
+    print(user[0][0:10])
 
 #l = list(functools.reduce(lambda a,b : a if len(a) > len(b) else b, uniq_users))
 
