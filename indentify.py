@@ -36,12 +36,17 @@ uniq_users = group_users(same_user, data)
 
 print("Discovered %d unique users!" % len(uniq_users))
 
+userinfo = []
 for user in uniq_users:
-    print(user[0][0:10])
+    userinfo.append(user[0])
+with open("preliminary-user-info.csv", "w", newline="") as f:
+    writer = csv.writer(f, delimiter="~") 
+    writer.writerows(userinfo)
 
-#l = list(functools.reduce(lambda a,b : a if len(a) > len(b) else b, uniq_users))
+#pref = []
+#for user in uniq_users:
+#    pref.append(group_users(lambda a,b: cols_match([7],a,b), user))
+#print(pref[2][1])
 
-#for e in l:
-#    print(e)
 
 
