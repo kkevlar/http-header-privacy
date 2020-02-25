@@ -40,8 +40,15 @@ def group_users(comp, raw_rows):
 raw_uniq_users = group_users(same_user, data)
 uniq_users = list(filter(lambda u: not u[0][1] == '-', raw_uniq_users))
 print("Threw out %d humans!" % (len(raw_uniq_users) - len(uniq_users)))
-
 print("Discovered %d unique bots!" % len(uniq_users))
+
+raw_uniq_languages = group_users(lambda a,b: cols_match([5],a,b), data)
+uniq_languages = list(filter(lambda u: not u[0][1] == '-', raw_uniq_languages))
+print("\nThe bots use %d unique languages!" % len(uniq_languages))
+
+raw_uniq_user_agents = group_users(lambda a,b: cols_match([11],a,b), data)
+uniq_user_agents = list(filter(lambda u: not u[0][1] == '-', raw_uniq_user_agents))
+print("The bots use %d unique user agents!" % len(uniq_user_agents))
 
 def out_csv(data2d, name):
     print("Writing to %s.csv" % name)
@@ -55,7 +62,7 @@ def output_prelim_unique_user_info():
         userinfo.append(user[0])
     out_csv(userinfo, "base-user-info")
 
-def output_preferences_by_bot(groups):
+def output_preferences_by_group(groups, csvname):
     pref = []
     options = [
             "GET /img/kitten1 HTTP/1.1 ",
@@ -80,10 +87,11 @@ def output_preferences_by_bot(groups):
             if not match:
                 scores[6] += 1 
             scores[9] += 1
-        for i in range(len(user[0])):
-            if all(map(lambda row: row[i] == user[0][i], user)):
-                scores.append(user[0][i])
         pref.append(scores)
+    for i in range(len(user[0][0])):
+        if all(map(lambda group: all(map(lambda row: row[i] == group[0][i] , group)), groups)):
+            for j in range(len(pref)):
+                pref[j].append(groups[j][0][i])
     labelstring = options
     labelstring.append("Other (Not Puppy/Kitten)")
     labelstring.append("Kitten Total")
@@ -92,10 +100,9 @@ def output_preferences_by_bot(groups):
     while len(labelstring) < len(pref[0]):
         labelstring.append("?")
     pref.insert(0, labelstring)
-    out_csv(pref, "user-preferences")
+    out_csv(pref, csvname)
 
-
-output_preferences_by_bot(uniq_users)
+output_preferences_by_group(uniq_languages, "pref-by-language")
 
 
 
