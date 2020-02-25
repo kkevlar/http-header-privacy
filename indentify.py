@@ -41,20 +41,63 @@ raw_uniq_users = group_users(same_user, data)
 uniq_users = list(filter(lambda u: not u[0][1] == '-', raw_uniq_users))
 print("Threw out %d humans!" % (len(raw_uniq_users) - len(uniq_users)))
 
-print("Discovered %d unique users!" % len(uniq_users))
+print("Discovered %d unique bots!" % len(uniq_users))
+
+def out_csv(data2d, name):
+    print("Writing to %s.csv" % name)
+    with open("%s.csv" % name, "w", newline="") as f:
+        writer = csv.writer(f, delimiter="~") 
+        writer.writerows(userinfo)
+
 
 def output_prelim_unique_user_info():
     userinfo = []
     for user in uniq_users:
         userinfo.append(user[0])
-    with open("preliminary-user-info.csv", "w", newline="") as f:
-        writer = csv.writer(f, delimiter="~") 
-        writer.writerows(userinfo)
+    out_csv(userinfo, "base-user-info")
 
-#pref = []
-#for user in uniq_users:
-#    pref.append(group_users(lambda a,b: cols_match([7],a,b), user))
-#print(pref[2][1])
+def output_preferences_by_bot():
+    pref = []
+    options = [
+            "GET /img/kitten1 HTTP/1.1 ",
+            "GET /img/kitten2 HTTP/1.1 ",
+            "GET /img/kitten3 HTTP/1.1 ",
+            "GET /img/puppy1 HTTP/1.1 ",
+            "GET /img/puppy2 HTTP/1.1 ",
+            "GET /img/puppy3 HTTP/1.1 ",
+            ]
+    for user in uniq_users:
+        scores = [0,0,0, 0,0,0, 0,0,0]
+        for row in user:
+            match = False
+            for i in range(len(options)):
+                if options[i] == row[7]:
+                    scores[i] += 1
+                    if i < 3: 
+                        scores[7] += 1
+                    elif i < 6:
+                        scores[8] += 1
+                    match = True
+            if not match:
+                scores[6] += 1 
+        baseuser = user[0]
+        pref.append(baseuser.extend(scores))
+
+    def options_index_to_char(index):
+        return chr(ord('A') + len(baseuser) + index)
+    print("The %dth col, (in sheets it will be column %c), begins the preference information" % (len(baseuser), options_index_to_char(0)))
+    y = 0
+    while y < len(options):
+        print("Column %c: %s" % (options_index_to_char(y), options[y]))
+        y = y+1
+    print("Column %c: %s" % (options_index_to_char(6), "Other Click"))
+    print("Column %c: %s" % (options_index_to_char(7), "Kitten Total"))
+    print("Column %c: %s" % (options_index_to_char(8), "Puppy Total"))
+    out_csv(pref, "user-preferences")
+
+
+output_preferences_by_bot()
+
 
 
 
