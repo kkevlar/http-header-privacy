@@ -10,7 +10,12 @@ data = []
 for row in datareader:
     data.append(row)    
 
-data = list(filter(lambda row: len(row) >= 15, data))
+temp = []
+for row in data:
+    if len(row) >= 15:
+        temp.append(row)
+    else:
+        print("Throwing out a short row!")
 print("Found %d rows\n" % len(data))
 
 def cols_match(indecies,a, b):
@@ -32,16 +37,19 @@ def group_users(comp, raw_rows):
             groups.append([row])
     return groups
 
-uniq_users = group_users(same_user, data)
+raw_uniq_users = group_users(same_user, data)
+uniq_users = list(filter(lambda u: not u[0][1] == '-', raw_uniq_users))
+print("Threw out %d humans!" % (len(raw_uniq_users) - len(uniq_users)))
 
 print("Discovered %d unique users!" % len(uniq_users))
 
-userinfo = []
-for user in uniq_users:
-    userinfo.append(user[0])
-with open("preliminary-user-info.csv", "w", newline="") as f:
-    writer = csv.writer(f, delimiter="~") 
-    writer.writerows(userinfo)
+def output_prelim_unique_user_info():
+    userinfo = []
+    for user in uniq_users:
+        userinfo.append(user[0])
+    with open("preliminary-user-info.csv", "w", newline="") as f:
+        writer = csv.writer(f, delimiter="~") 
+        writer.writerows(userinfo)
 
 #pref = []
 #for user in uniq_users:
