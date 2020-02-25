@@ -88,7 +88,8 @@ def output_preferences_by_group(groups, csvname):
                 scores[6] += 1 
             scores[9] += 1
         pref.append(scores)
-    for i in range(len(user[0][0])):
+    print(len(groups[0][0]))
+    for i in range(len(groups[0][0])):
         if all(map(lambda group: all(map(lambda row: row[i] == group[0][i] , group)), groups)):
             for j in range(len(pref)):
                 pref[j].append(groups[j][0][i])
@@ -102,7 +103,7 @@ def output_preferences_by_group(groups, csvname):
     pref.insert(0, labelstring)
     out_csv(pref, csvname)
 
-output_preferences_by_group(uniq_languages, "pref-by-language")
+output_preferences_by_group(uniq_user_agents, "pref-by-user-agent")
 
 
 
