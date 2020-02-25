@@ -55,7 +55,7 @@ def output_prelim_unique_user_info():
         userinfo.append(user[0])
     out_csv(userinfo, "base-user-info")
 
-def output_preferences_by_bot():
+def output_preferences_by_bot(groups):
     pref = []
     options = [
             "GET /img/kitten1 HTTP/1.1 ",
@@ -65,12 +65,12 @@ def output_preferences_by_bot():
             "GET /img/puppy2 HTTP/1.1 ",
             "GET /img/puppy3 HTTP/1.1 ",
             ]
-    for user in uniq_users:
+    for user in groups:
         scores = [0,0,0, 0,0,0, 0,0,0,0]
         for row in user:
             match = False
             for i in range(len(options)):
-                if options[i] == row[7]:
+                if options[i].strip() == row[7].strip():
                     scores[i] += 1
                     if i < 3: 
                         scores[7] += 1
@@ -80,24 +80,22 @@ def output_preferences_by_bot():
             if not match:
                 scores[6] += 1 
             scores[9] += 1
-        baseuser = user[0]
-        pref.append(scores.extend(baseuser))
-
-    def options_index_to_char(index):
-        return chr(ord('A') + index)
-    print("The %dth col, (in sheets it will be column %c), begins the preference information" % (0, options_index_to_char(0)))
-    y = 0
-    while y < len(options):
-        print("Column %c: %s" % (options_index_to_char(y), options[y]))
-        y = y+1
-    print("Column %c: %s" % (options_index_to_char(6), "Other Click"))
-    print("Column %c: %s" % (options_index_to_char(7), "Kitten Total"))
-    print("Column %c: %s" % (options_index_to_char(8), "Puppy Total"))
-    print("Column %c: %s" % (options_index_to_char(9), "Total Hits"))
+        for i in range(len(user[0])):
+            if all(map(lambda row: row[i] == user[0][i], user)):
+                scores.append(user[0][i])
+        pref.append(scores)
+    labelstring = options
+    labelstring.append("Other (Not Puppy/Kitten)")
+    labelstring.append("Kitten Total")
+    labelstring.append("Puppy Total")
+    labelstring.append("Total Hits")
+    while len(labelstring) < len(pref[0]):
+        labelstring.append("?")
+    pref.insert(0, labelstring)
     out_csv(pref, "user-preferences")
 
 
-output_prelim_unique_user_info()
+output_preferences_by_bot(uniq_users)
 
 
 
