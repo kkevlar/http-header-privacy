@@ -47,8 +47,7 @@ def out_csv(data2d, name):
     print("Writing to %s.csv" % name)
     with open("%s.csv" % name, "w", newline="") as f:
         writer = csv.writer(f, delimiter="~") 
-        writer.writerows(userinfo)
-
+        writer.writerows(data2d)
 
 def output_prelim_unique_user_info():
     userinfo = []
@@ -67,7 +66,7 @@ def output_preferences_by_bot():
             "GET /img/puppy3 HTTP/1.1 ",
             ]
     for user in uniq_users:
-        scores = [0,0,0, 0,0,0, 0,0,0]
+        scores = [0,0,0, 0,0,0, 0,0,0,0]
         for row in user:
             match = False
             for i in range(len(options)):
@@ -80,12 +79,13 @@ def output_preferences_by_bot():
                     match = True
             if not match:
                 scores[6] += 1 
+            scores[9] += 1
         baseuser = user[0]
-        pref.append(baseuser.extend(scores))
+        pref.append(scores.extend(baseuser))
 
     def options_index_to_char(index):
-        return chr(ord('A') + len(baseuser) + index)
-    print("The %dth col, (in sheets it will be column %c), begins the preference information" % (len(baseuser), options_index_to_char(0)))
+        return chr(ord('A') + index)
+    print("The %dth col, (in sheets it will be column %c), begins the preference information" % (0, options_index_to_char(0)))
     y = 0
     while y < len(options):
         print("Column %c: %s" % (options_index_to_char(y), options[y]))
@@ -93,10 +93,11 @@ def output_preferences_by_bot():
     print("Column %c: %s" % (options_index_to_char(6), "Other Click"))
     print("Column %c: %s" % (options_index_to_char(7), "Kitten Total"))
     print("Column %c: %s" % (options_index_to_char(8), "Puppy Total"))
+    print("Column %c: %s" % (options_index_to_char(9), "Total Hits"))
     out_csv(pref, "user-preferences")
 
 
-output_preferences_by_bot()
+output_prelim_unique_user_info()
 
 
 
