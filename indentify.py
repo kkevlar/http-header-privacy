@@ -102,7 +102,7 @@ def output_preferences_by_group(groups, csvname):
     pref.insert(0, labelstring)
     out_csv(pref, csvname)
 
-output_preferences_by_group(uniq_users, "pref-by-unique-users")
+output_preferences_by_group(uniq_languages, "pref-by-language")
 
 
 
