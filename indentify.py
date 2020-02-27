@@ -62,6 +62,17 @@ def output_prelim_unique_user_info():
         userinfo.append(user[0])
     out_csv(userinfo, "base-user-info")
 
+def output_cookie_acceptance_by_group(groups, csvname):
+    cookie = []
+    for group in groups:
+        acceptances = list(map(lambda row: 1 if len(row[16]) > 5 else 0, group))
+        cookie.append([sum(acceptances) / len(acceptances)])
+    for i in range(len(groups[0][0])):
+        if all(map(lambda group: all(map(lambda row: row[i] == group[0][i] , group)), groups)):
+            for j in range(len(cookie)):
+                cookie[j].append(groups[j][0][i])
+    out_csv(cookie, csvname)
+
 def output_preferences_by_group(groups, csvname):
     pref = []
     options = [
@@ -102,7 +113,8 @@ def output_preferences_by_group(groups, csvname):
     pref.insert(0, labelstring)
     out_csv(pref, csvname)
 
-output_preferences_by_group(uniq_user_agents, "pref-by-user-agent")
+output_cookie_acceptance_by_group(uniq_users, "cookie-by-unique-users")
+output_cookie_acceptance_by_group(uniq_languages, "cookie-by-language")
 
 
 
