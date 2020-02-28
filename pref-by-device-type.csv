@@ -1,0 +1,7 @@
+GET /img/kitten1 HTTP/1.1 ~GET /img/kitten2 HTTP/1.1 ~GET /img/kitten3 HTTP/1.1 ~GET /img/puppy1 HTTP/1.1 ~GET /img/puppy2 HTTP/1.1 ~GET /img/puppy3 HTTP/1.1 ~Other (Not Puppy/Kitten)~Kitten Total~Puppy Total~Total Hits~?~?~?~?~?~?~?~?~?~?~?~?~?~?
+18064~18269~18194~15375~15278~15448~0~54527~46101~100628~justin~-~10.144.203.128~-~200~-~gzip~-~-~/data/www~~*/*~Mobile~Mobile
+39209~39445~39373~40658~40982~41084~0~118027~122724~240751~justin~-~10.144.203.128~-~200~-~gzip~-~-~/data/www~~*/*~Desktop~Desktop
+2509~2505~2608~0~0~0~0~7622~0~7622~justin~-~10.144.203.128~-~200~-~gzip~-~-~/data/www~~*/*~Console~Other
+576~564~563~596~587~595~0~1703~1778~3481~justin~-~10.144.203.128~-~200~-~gzip~-~-~/data/www~~*/*~Unknown~Other
+1238~1238~1156~0~0~0~0~3632~0~3632~justin~-~10.144.203.128~-~200~-~gzip~-~-~/data/www~~*/*~TV~Other
+0~0~0~1217~1214~1183~0~0~3614~3614~justin~-~10.144.203.128~-~200~-~gzip~-~-~/data/www~~*/*~Car~Other
