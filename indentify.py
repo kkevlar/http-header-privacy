@@ -47,10 +47,13 @@ print("About to add more info by splitting IPS.....")
 temp = []
 for row in data:
     if row[1] != '-':
-        row.extend(re.match("for= \\\\x22(.+)\\.(.+)\\.(.+)\\.(.+)\\\\x22",row[1]).groups())
+        extra = list(re.match("for= \\\\x22(.+)\\.(.+)\\.(.+)\\.(.+)\\\\x22",row[1]).groups() )
+        extra.append(int(extra[0]) // 100)
+        extra.append(int(extra[0]) // 10)
+        row.extend(extra)
         temp.append(row)
     else:
-        row.extend(['?' for i in range(4)]) 
+        row.extend(['?' for i in range(6)]) 
         temp.append(row)
 data = temp
 
@@ -73,53 +76,7 @@ def group_users(comp, raw_rows):
             groups.append([row])
     return groups
 
-raw_uniq_users = group_users(same_user, data)
-uniq_users = list(filter(lambda u: not u[0][1] == '-', raw_uniq_users))
-print("Threw out %d humans!" % (len(raw_uniq_users) - len(uniq_users)))
-print("Discovered %d unique bots!" % len(uniq_users))
-
-raw_uniq_languages = group_users(lambda a,b: cols_match([5],a,b), data)
-uniq_languages = list(filter(lambda u: not u[0][1] == '-', raw_uniq_languages))
-print("\nThe bots use %d unique languages!" % len(uniq_languages))
-meta_uniq_languages = map(lambda u: [u[0][0][5], len(u)], map(lambda lang: group_users(same_user, lang), uniq_languages))
-print(list(meta_uniq_languages))
-
-raw_uniq_user_agents = group_users(lambda a,b: cols_match([11],a,b), data)
-uniq_user_agents = list(filter(lambda u: not u[0][1] == '-', raw_uniq_user_agents))
-print("The bots use %d unique user agents!" % len(uniq_user_agents))
-
-raw_uniq_ips = group_users(lambda a,b: cols_match([1],a,b), data)
-uniq_ips = list(filter(lambda u: not u[0][1] == '-', raw_uniq_ips))
-print("The bots use %d unique ips!" % len(uniq_ips))
-
-raw_uniq_browsers = group_users(lambda a,b: cols_match([21],a,b), data)
-uniq_browsers = list(filter(lambda u: not u[0][1] == '-', raw_uniq_browsers))
-print("The bots use %d unique browsers!" % len(uniq_browsers))
-
-raw_uniq_platforms = group_users(lambda a,b: cols_match([22],a,b), data)
-uniq_platforms = list(filter(lambda u: not u[0][1] == '-', raw_uniq_platforms))
-print("The bots use %d unique platforms!" % len(uniq_platforms))
-
-raw_uniq_device_types = group_users(lambda a,b: cols_match([23],a,b), data)
-uniq_device_types = list(filter(lambda u: not u[0][1] == '-', raw_uniq_device_types))
-print("The bots use %d unique device_types!" % len(uniq_device_types))
-
-raw_uniq_general_device = group_users(lambda a,b: cols_match([24],a,b), data)
-uniq_general_device = list(filter(lambda u: not u[0][1] == '-', raw_uniq_general_device))
-print("The bots use %d unique general_device!" % len(uniq_general_device))
-
-raw_uniq_nonip = group_users(lambda a,b: cols_match([5,11],a,b), data)
-uniq_nonip = list(filter(lambda u: not u[0][1] == '-', raw_uniq_nonip))
-print("The bots use %d unique language / UA combos!" % len(uniq_nonip))
-
-raw_uniq_lang_and_gen = group_users(lambda a,b: cols_match([5,24],a,b), data)
-uniq_lang_and_gen = list(filter(lambda u: not u[0][1] == '-', raw_uniq_lang_and_gen))
-print("The bots use %d unique language / device type combos!" % len(uniq_lang_and_gen))
-
-raw_uniq_lang_gen_ip1 = group_users(lambda a,b: cols_match([5,24,25],a,b), data)
-uniq_lang_gen_ip1 = list(filter(lambda u: not u[0][1] == '-', raw_uniq_lang_gen_ip1))
-print("The bots use %d unique language / device type / ip1 combos!" % len(uniq_lang_gen_ip1))
-
+    
 def print_col_indecies_with_examples(data):
     for col in range(len(data[0])):
         print("%5d: " % col, end='')
@@ -190,19 +147,34 @@ def output_preferences_by_group(groups, csvname):
     pref.insert(0, labelstring)
     out_csv(pref, csvname)
 
-output_preferences_by_group(uniq_users, "pref-by-unique-users")
-output_preferences_by_group(uniq_languages, "pref-by-language")
-output_preferences_by_group(uniq_user_agents, "pref-by-user-agent")
-output_preferences_by_group(uniq_browsers, "pref-by-browser")
-output_preferences_by_group(uniq_platforms, "pref-by-platforms")
-output_preferences_by_group(uniq_device_types, "pref-by-device-type")
-output_preferences_by_group(uniq_general_device, "pref-by-general-device")
-output_preferences_by_group(uniq_nonip, "pref-by-nonip")
-output_preferences_by_group(uniq_lang_and_gen, "pref-by-lang-and-gen")
-output_preferences_by_group(uniq_lang_gen_ip1, "pref-by-lang-gen-ip1")
+def bread(data_rows_only, cols, name):
+    raw_uniq = group_users(lambda a,b: cols_match(cols,a,b), data_rows_only)
+    uniq = list(filter(lambda u: not u[0][1] == '-', raw_uniq))
+    print("\nThe bots use %d unique %s!" % (len(uniq), name))
+    uniq_users_in = list(map(lambda lang: group_users(same_user, lang), uniq))
+    counts = list(map(lambda u: len(u), uniq_users_in))
+    print("\t%03d bots - %03d bots" % (min(counts), max(counts)))
+    output_preferences_by_group(uniq, "pref-by-%s" % name)
 
+raw_uniq_users = group_users(same_user, data)
+uniq_users = list(filter(lambda u: not u[0][1] == '-', raw_uniq_users))
+print("Threw out %d humans!" % (len(raw_uniq_users) - len(uniq_users)))
+print("Discovered %d unique bots!" % len(uniq_users))
+output_preferences_by_group(uniq_users, "pref-by-unique-user")
 
-
+bread(data, [1], "ipA") 
+bread(data, [5], "language") 
+bread(data, [11], "user-agent") 
+bread(data, [21], "browser") 
+bread(data, [22], "platform") 
+bread(data, [23], "device") 
+bread(data, [24], "gendevice") 
+bread(data, [5,11], "lang-and-ua") 
+bread(data, [21,22], "browser-and-platform") 
+bread(data, [5,24], "lang-and-gendevice") 
+bread(data, [25], "ip1") 
+bread(data, [29], "ip-digit-1") 
+bread(data, [5,25,29], "language-gendevice-and-ip-digit-1") 
 
 
 

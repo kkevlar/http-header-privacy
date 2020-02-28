@@ -1,4 +1,0 @@
-GET /img/kitten1 HTTP/1.1 ~GET /img/kitten2 HTTP/1.1 ~GET /img/kitten3 HTTP/1.1 ~GET /img/puppy1 HTTP/1.1 ~GET /img/puppy2 HTTP/1.1 ~GET /img/puppy3 HTTP/1.1 ~Other (Not Puppy/Kitten)~Kitten Total~Puppy Total~Total Hits~?~?~?~?~?~?~?~?~?~?~?~?~?
-18064~18269~18194~15375~15278~15448~0~54527~46101~100628~justin~-~10.144.203.128~-~200~-~gzip~-~-~/data/www~~*/*~Mobile
-39209~39445~39373~40658~40982~41084~0~118027~122724~240751~justin~-~10.144.203.128~-~200~-~gzip~-~-~/data/www~~*/*~Desktop
-4323~4307~4327~1813~1801~1778~0~12957~5392~18349~justin~-~10.144.203.128~-~200~-~gzip~-~-~/data/www~~*/*~Other
