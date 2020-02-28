@@ -174,7 +174,12 @@ bread(data, [21,22], "browser-and-platform")
 bread(data, [5,24], "lang-and-gendevice") 
 bread(data, [25], "ip1") 
 bread(data, [29], "ip-digit-1") 
+bread(data, [30], "ip-digit-12") 
 bread(data, [5,25,29], "language-gendevice-and-ip-digit-1") 
+bread(data, [23,29], "device-and-ip-digit-1") 
+bread(data, [23,30], "device-and-ip-digit-12") 
+bread(data, [24,29], "gendevice-and-ip-digit-1") 
+bread(data, [24,30], "gendevice-and-ip-digit-12") 
 
 
 
