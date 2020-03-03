@@ -1,0 +1,326 @@
+Lang,Cookie,Browser,Platform,Device,Kitten Total,Puppy Total,Total Hits
+fa,[21/Feb/2020:22:34:13 +0000][for= \x22203.237.28.243\x22][][10.144.203.128][fa],AndroidBrowser,Android,Mobile,602,608,1210
+sg,-,Safari,iPhone,Mobile,1111,0,1111
+ne,-,Firefox,Android,Mobile,0,791,791
+kn,-,IE,Windows,Desktop,620,679,1299
+bi,[21/Feb/2020:21:34:18 +0000][for= \x2224.69.200.234\x22][][10.144.203.128][bi],Firefox,Windows,Desktop,420,427,847
+hz,[21/Feb/2020:21:31:03 +0000][for= \x2230.63.58.164\x22][][10.144.203.128][hz],Firefox,Linux,Desktop,0,1664,1664
+bm,-,NetscapeNavigator,Mac,Desktop,468,455,923
+am,-,Chromium,Linux,Desktop,583,562,1145
+os,[21/Feb/2020:21:32:08 +0000][for= \x2242.201.82.98\x22][][10.144.203.128][os],IE,Windows,Desktop,0,703,703
+aa,[21/Feb/2020:21:32:16 +0000][for= \x22141.239.244.95\x22][][10.144.203.128][aa],IE,Xbox,Console,3820,0,3820
+ht,[21/Feb/2020:21:33:37 +0000][for= \x2250.250.39.213\x22][][10.144.203.128][ht],Firefox,Linux,Desktop,0,1774,1774
+tn,-,Lynx,Linux,Desktop,775,768,1543
+ku,-,IE,Windows,Desktop,872,0,872
+kg,[21/Feb/2020:22:34:23 +0000][for= \x22170.223.122.29\x22][][10.144.203.128][kg],Firefox,Mac,Desktop,1928,0,1928
+sq,-,Baidu,Windows,Desktop,277,299,576
+ve,-,GoogleSearchApp,iPhone,Mobile,0,1007,1007
+lg,-,Firefox,Windows,Desktop,676,0,676
+cu,[21/Feb/2020:21:34:26 +0000][for= \x22128.51.197.103\x22][][10.144.203.128][cu],Chromium,Linux,Desktop,368,366,734
+ar,[21/Feb/2020:22:33:41 +0000][for= \x2278.17.136.185\x22][][10.144.203.128][ar],Opera,Windows,Desktop,550,508,1058
+th,[21/Feb/2020:22:32:08 +0000][for= \x22255.228.218.200\x22][][10.144.203.128][th],IE,Windows,Desktop,951,0,951
+lg,-,Firefox,Windows,Desktop,606,0,606
+tg,[21/Feb/2020:21:32:44 +0000][for= \x22138.42.133.161\x22][][10.144.203.128][tg],Opera,Windows,Desktop,382,329,711
+lt,-,Firefox,Linux,Desktop,491,477,968
+ku,-,IE,Windows,Desktop,1032,0,1032
+nn,[21/Feb/2020:21:31:19 +0000][for= \x2254.68.197.189\x22][][10.144.203.128][nn],Thunderbird,Windows,Desktop,0,704,704
+nr,[21/Feb/2020:21:31:48 +0000][for= \x22170.121.227.91\x22][][10.144.203.128][nr],Chromium,Linux,Desktop,562,599,1161
+cs,[21/Feb/2020:21:34:53 +0000][for= \x22177.45.191.64\x22][][10.144.203.128][cs],Chrome,Mac,Desktop,0,692,692
+tg,[21/Feb/2020:22:31:45 +0000][for= \x2296.22.23.175\x22][][10.144.203.128][tg],Chrome,Android,Mobile,1117,0,1117
+sm,-,Firefox,Mac,Desktop,1060,0,1060
+lu,-,Opera,Windows,Desktop,442,430,872
+ii,[21/Feb/2020:21:31:10 +0000][for= \x22109.42.128.21\x22][][10.144.203.128][ii],Opera,Windows,Desktop,896,857,1753
+aa,-,Firefox,Android,Mobile,774,0,774
+ts,-,IE,Windows,Desktop,992,0,992
+nn,[21/Feb/2020:21:34:40 +0000][for= \x2222.72.177.140\x22][][10.144.203.128][nn],Safari,Windows,Desktop,716,706,1422
+so,-,Thunderbird,Windows,Desktop,0,3612,3612
+nn,[21/Feb/2020:21:31:19 +0000][for= \x2254.68.197.189\x22][][10.144.203.128][nn],Thunderbird,Windows,Desktop,0,606,606
+es,[21/Feb/2020:22:33:55 +0000][for= \x2216.93.179.168\x22][][10.144.203.128][es],GoogleSearchApp,iPhone,Mobile,0,770,770
+ms,-,Firefox,Windows,Desktop,402,439,841
+ab,[21/Feb/2020:21:34:32 +0000][for= \x22198.98.130.203\x22][][10.144.203.128][ab],Chromium,Linux,Desktop,880,854,1734
+tn,[21/Feb/2020:22:32:57 +0000][for= \x2271.180.225.100\x22][][10.144.203.128][tn],Dragon,Windows,Desktop,0,3775,3775
+rw,-,Opera,Mac,Desktop,1821,1744,3565
+ng,-,IE,Windows,Desktop,448,474,922
+fy,-,IE,Windows,Desktop,1613,0,1613
+sq,-,Baidu,Windows,Desktop,378,369,747
+nv,-,Dragon,Windows,Desktop,458,441,899
+av,-,IE,Windows,Desktop,1834,1801,3635
+kg,[21/Feb/2020:22:34:23 +0000][for= \x22170.223.122.29\x22][][10.144.203.128][kg],Firefox,Mac,Desktop,1835,0,1835
+hy,-,Chrome,Windows,Mobile,0,3591,3591
+gu,[21/Feb/2020:21:35:00 +0000][for= \x22242.29.123.175\x22][][10.144.203.128][gu],Thunderbird,Linux,Desktop,981,1009,1990
+lu,-,Opera,Windows,Desktop,447,432,879
+li,-,Webkit,iPhone,Mobile,859,859,1718
+pt,-,Dragon,Windows,Desktop,0,1196,1196
+xh,-,Unknown,Unknown,Unknown,498,539,1037
+ds,[21/Feb/2020:23:21:52 +0000][for= \x22190.47.29.187\x22][][10.144.203.128][ds],Firefox,Android,Mobile,371,381,752
+ne,-,Firefox,Android,Mobile,0,756,756
+gd,-,Chrome,Android,Mobile,0,998,998
+nn,[21/Feb/2020:21:34:40 +0000][for= \x2222.72.177.140\x22][][10.144.203.128][nn],Safari,Windows,Desktop,648,614,1262
+ig,-,Safari,iPhone,Mobile,1374,0,1374
+ln,-,IE,Windows,Desktop,3463,0,3463
+hz,[21/Feb/2020:21:31:03 +0000][for= \x2230.63.58.164\x22][][10.144.203.128][hz],Firefox,Linux,Desktop,0,1832,1832
+tg,[21/Feb/2020:22:31:45 +0000][for= \x2296.22.23.175\x22][][10.144.203.128][tg],Chrome,Android,Mobile,1182,0,1182
+io,[21/Feb/2020:21:31:06 +0000][for= \x22145.202.242.49\x22][][10.144.203.128][io],Firefox,Android,Mobile,537,505,1042
+kv,[21/Feb/2020:21:34:01 +0000][for= \x2218.38.76.14\x22][][10.144.203.128][kv],Webkit,iPhone,Mobile,3325,0,3325
+nv,-,Dragon,Windows,Desktop,460,498,958
+hi,-,Chrome,Android,Mobile,393,332,725
+io,-,Dragon,Windows,Desktop,354,384,738
+ab,[21/Feb/2020:21:34:32 +0000][for= \x22198.98.130.203\x22][][10.144.203.128][ab],Chromium,Linux,Desktop,976,961,1937
+ky,[21/Feb/2020:22:32:25 +0000][for= \x2243.253.214.127\x22][][10.144.203.128][ky],SamsungBrowser,Samsung TV,TV,898,0,898
+ur,[21/Feb/2020:23:21:22 +0000][for= \x22222.31.181.181\x22][][10.144.203.128][ur],Chromium,Linux,Desktop,878,0,878
+nd,-,Elinks,Linux,Desktop,3861,0,3861
+kn,-,IE,Windows,Desktop,680,671,1351
+ch,-,Firefox,Android,Mobile,486,482,968
+so,[21/Feb/2020:21:33:42 +0000][for= \x2283.254.200.113\x22][][10.144.203.128][so],Safari,Windows,Desktop,499,552,1051
+ch,-,Firefox,Android,Mobile,432,427,859
+th,-,IE,Windows,Desktop,361,332,693
+io,[21/Feb/2020:21:31:06 +0000][for= \x22145.202.242.49\x22][][10.144.203.128][io],Firefox,Android,Mobile,449,444,893
+ee,-,IE,Windows,Desktop,479,454,933
+as,-,IE,Windows,Desktop,0,976,976
+oj,-,Firefox,Mac,Desktop,513,531,1044
+sw,[21/Feb/2020:22:32:39 +0000][for= \x2291.115.130.54\x22][][10.144.203.128][sw],IE,Xbox,Console,894,0,894
+ak,[21/Feb/2020:21:32:24 +0000][for= \x22147.75.113.183\x22][][10.144.203.128][ak],TeslaBrowser,Tesla,Car,0,860,860
+ru,-,AOL,Windows,Desktop,1805,0,1805
+ff,-,Chrome,Android,Mobile,0,3676,3676
+az,[21/Feb/2020:21:33:11 +0000][for= \x2267.201.224.153\x22][][10.144.203.128][az],Firefox,Mac,Desktop,341,323,664
+ta,-,Chromium,Linux,Desktop,3710,0,3710
+th,-,Firefox,Mac,Desktop,1773,1830,3603
+ur,[21/Feb/2020:23:21:22 +0000][for= \x22222.31.181.181\x22][][10.144.203.128][ur],Chromium,Linux,Desktop,934,0,934
+kn,-,IE,Windows,Desktop,719,724,1443
+bm,-,NetscapeNavigator,Mac,Desktop,492,455,947
+ch,-,Firefox,Android,Mobile,437,458,895
+ig,-,Safari,iPhone,Mobile,1194,0,1194
+ch,-,Safari,Mac,Desktop,343,394,737
+cv,-,IE,Windows,Desktop,0,782,782
+mi,[21/Feb/2020:21:32:29 +0000][for= \x22156.79.216.219\x22][][10.144.203.128][mi],Firefox,Mac,Desktop,981,1021,2002
+tg,[21/Feb/2020:21:32:44 +0000][for= \x22138.42.133.161\x22][][10.144.203.128][tg],Opera,Windows,Desktop,342,342,684
+jv,-,Firefox,Windows,Desktop,443,437,880
+bo,[21/Feb/2020:21:33:30 +0000][for= \x2212.199.95.237\x22][][10.144.203.128][bo],Firefox,iPhone,Mobile,874,0,874
+cv,-,IE,Windows,Desktop,0,1051,1051
+ce,-,Chrome,iPad,Mobile,383,388,771
+ff,-,Safari,Windows,Desktop,455,449,904
+sq,-,Baidu,Windows,Desktop,325,319,644
+ds,[21/Feb/2020:23:21:52 +0000][for= \x22190.47.29.187\x22][][10.144.203.128][ds],Firefox,Android,Mobile,396,371,767
+ky,[21/Feb/2020:22:32:25 +0000][for= \x2243.253.214.127\x22][][10.144.203.128][ky],SamsungBrowser,Samsung TV,TV,1012,0,1012
+ch,-,Safari,Mac,Desktop,296,324,620
+ch,-,Safari,Mac,Desktop,351,354,705
+ve,-,GoogleSearchApp,iPhone,Mobile,0,1024,1024
+ht,[21/Feb/2020:21:33:37 +0000][for= \x2250.250.39.213\x22][][10.144.203.128][ht],Firefox,Linux,Desktop,0,1732,1732
+es,[21/Feb/2020:22:33:55 +0000][for= \x2216.93.179.168\x22][][10.144.203.128][es],GoogleSearchApp,iPhone,Mobile,0,713,713
+nr,[21/Feb/2020:21:31:48 +0000][for= \x22170.121.227.91\x22][][10.144.203.128][nr],Chromium,Linux,Desktop,614,577,1191
+ee,-,IE,Windows,Desktop,418,406,824
+cv,-,IE,Windows,Desktop,0,954,954
+io,-,Dragon,Windows,Desktop,489,472,961
+bi,[21/Feb/2020:21:34:18 +0000][for= \x2224.69.200.234\x22][][10.144.203.128][bi],Firefox,Windows,Desktop,469,443,912
+be,-,IE,WPhone,Mobile,1833,1804,3637
+fr,-,IceCat,Linux,Desktop,1106,0,1106
+tg,[21/Feb/2020:21:32:44 +0000][for= \x22138.42.133.161\x22][][10.144.203.128][tg],Opera,Windows,Desktop,418,406,824
+fa,[21/Feb/2020:22:34:13 +0000][for= \x22203.237.28.243\x22][][10.144.203.128][fa],AndroidBrowser,Android,Mobile,664,630,1294
+av,-,Elinks,Linux,Desktop,497,461,958
+so,[21/Feb/2020:21:33:42 +0000][for= \x2283.254.200.113\x22][][10.144.203.128][so],Safari,Windows,Desktop,462,472,934
+ng,-,IE,Windows,Desktop,504,483,987
+ie,-,GoogleSearchApp,iPhone,Mobile,293,377,670
+oj,-,Firefox,Mac,Desktop,553,596,1149
+as,-,IE,Windows,Desktop,0,822,822
+ak,[21/Feb/2020:21:32:24 +0000][for= \x22147.75.113.183\x22][][10.144.203.128][ak],TeslaBrowser,Tesla,Car,0,962,962
+sg,-,Safari,iPhone,Mobile,802,0,802
+ss,-,Chrome,iPhone,Mobile,952,1062,2014
+jv,-,Firefox,Windows,Desktop,440,438,878
+lt,-,Firefox,Linux,Desktop,456,463,919
+sg,-,Safari,iPhone,Mobile,971,0,971
+ne,-,Firefox,Android,Mobile,0,787,787
+ay,[21/Feb/2020:21:32:09 +0000][for= \x22109.179.29.22\x22][][10.144.203.128][ay],IE,WPhone,Mobile,319,305,624
+sg,[21/Feb/2020:21:33:03 +0000][for= \x2295.92.24.145\x22][][10.144.203.128][sg],Chrome,Mac,Desktop,888,942,1830
+ak,[21/Feb/2020:21:32:24 +0000][for= \x22147.75.113.183\x22][][10.144.203.128][ak],TeslaBrowser,Tesla,Car,0,852,852
+ce,-,Chrome,iPad,Mobile,373,351,724
+in,[21/Feb/2020:21:32:22 +0000][for= \x22200.214.217.93\x22][][10.144.203.128][in],Iceweasel,Linux,Desktop,0,1978,1978
+az,[21/Feb/2020:21:33:11 +0000][for= \x2267.201.224.153\x22][][10.144.203.128][az],Firefox,Mac,Desktop,341,366,707
+fr,-,IceCat,Linux,Desktop,994,0,994
+ne,-,Firefox,Android,Mobile,0,878,878
+ay,[21/Feb/2020:21:32:09 +0000][for= \x22109.179.29.22\x22][][10.144.203.128][ay],IE,WPhone,Mobile,354,379,733
+mo,-,Chrome,Mac,Desktop,0,3474,3474
+os,[21/Feb/2020:21:32:08 +0000][for= \x2242.201.82.98\x22][][10.144.203.128][os],IE,Windows,Desktop,0,700,700
+io,-,Dragon,Windows,Desktop,340,351,691
+hi,-,Chrome,Android,Mobile,299,314,613
+mi,[21/Feb/2020:21:32:29 +0000][for= \x22156.79.216.219\x22][][10.144.203.128][mi],Firefox,Mac,Desktop,945,878,1823
+bo,[21/Feb/2020:21:33:30 +0000][for= \x2212.199.95.237\x22][][10.144.203.128][bo],Firefox,iPhone,Mobile,666,0,666
+bm,-,Chrome,Windows,Desktop,1713,1827,3540
+ms,-,Firefox,Windows,Desktop,438,428,866
+ts,-,IE,Windows,Desktop,851,0,851
+ie,-,GoogleSearchApp,iPhone,Mobile,350,387,737
+mt,-,Dragon,Windows,Desktop,661,0,661
+sm,-,Firefox,Mac,Desktop,1183,0,1183
+xh,-,Unknown,Unknown,Unknown,634,631,1265
+lt,-,Firefox,Linux,Desktop,446,432,878
+cs,[21/Feb/2020:21:34:53 +0000][for= \x22177.45.191.64\x22][][10.144.203.128][cs],Chrome,Mac,Desktop,0,672,672
+as,-,IE,Windows,Desktop,0,824,824
+ru,-,AOL,Windows,Desktop,1623,0,1623
+nv,-,Dragon,Windows,Desktop,451,409,860
+ar,[21/Feb/2020:22:33:41 +0000][for= \x2278.17.136.185\x22][][10.144.203.128][ar],Opera,Windows,Desktop,575,598,1173
+gd,-,Chrome,Android,Mobile,0,817,817
+ki,-,IE,Windows,Desktop,0,1181,1181
+ky,[21/Feb/2020:22:32:25 +0000][for= \x2243.253.214.127\x22][][10.144.203.128][ky],SamsungBrowser,Samsung TV,TV,863,0,863
+io,[21/Feb/2020:21:31:06 +0000][for= \x22145.202.242.49\x22][][10.144.203.128][io],Firefox,Android,Mobile,336,351,687
+lg,-,Firefox,Windows,Desktop,771,0,771
+bm,-,NetscapeNavigator,Mac,Desktop,473,498,971
+aa,-,Firefox,Android,Mobile,686,0,686
+lu,-,Opera,Windows,Desktop,469,486,955
+fr,-,IceCat,Linux,Desktop,1191,0,1191
+oj,-,Firefox,Mac,Desktop,643,653,1296
+sw,[21/Feb/2020:22:32:39 +0000][for= \x2291.115.130.54\x22][][10.144.203.128][sw],IE,Xbox,Console,860,0,860
+av,-,Elinks,Linux,Desktop,397,364,761
+as,[21/Feb/2020:22:31:11 +0000][for= \x22189.64.54.240\x22][][10.144.203.128][as],Fennec,Android,Mobile,1604,0,1604
+ie,-,GoogleSearchApp,iPhone,Mobile,380,377,757
+jv,-,Firefox,Windows,Desktop,417,429,846
+bo,[21/Feb/2020:21:33:30 +0000][for= \x2212.199.95.237\x22][][10.144.203.128][bo],Firefox,iPhone,Mobile,797,0,797
+tg,[21/Feb/2020:21:32:44 +0000][for= \x22138.42.133.161\x22][][10.144.203.128][tg],Opera,Windows,Desktop,286,328,614
+gu,[21/Feb/2020:21:35:00 +0000][for= \x22242.29.123.175\x22][][10.144.203.128][gu],Thunderbird,Linux,Desktop,870,968,1838
+ce,-,Chrome,iPad,Mobile,347,347,694
+sd,[21/Feb/2020:23:19:38 +0000][for= \x2228.51.199.120\x22][][10.144.203.128][sd],Chrome,Android,Mobile,783,0,783
+ki,-,IE,Windows,Desktop,0,1125,1125
+os,[21/Feb/2020:21:32:08 +0000][for= \x2242.201.82.98\x22][][10.144.203.128][os],IE,Windows,Desktop,0,825,825
+ve,-,GoogleSearchApp,iPhone,Mobile,0,1041,1041
+ce,-,Chrome,iPad,Mobile,353,352,705
+av,-,Elinks,Linux,Desktop,448,430,878
+th,-,IE,Windows,Desktop,436,437,873
+ff,-,Safari,Windows,Desktop,410,413,823
+jv,-,Firefox,Windows,Desktop,505,508,1013
+as,[21/Feb/2020:22:31:11 +0000][for= \x22189.64.54.240\x22][][10.144.203.128][as],Fennec,Android,Mobile,1697,0,1697
+cu,[21/Feb/2020:21:34:26 +0000][for= \x22128.51.197.103\x22][][10.144.203.128][cu],Chromium,Linux,Desktop,394,463,857
+mt,-,Dragon,Windows,Desktop,790,0,790
+hi,-,Chrome,Android,Mobile,358,400,758
+sd,[21/Feb/2020:23:19:38 +0000][for= \x2228.51.199.120\x22][][10.144.203.128][sd],Chrome,Android,Mobile,983,0,983
+ss,-,Chrome,iPhone,Mobile,906,952,1858
+ne,-,Firefox,Android,Mobile,0,773,773
+am,-,Chromium,Linux,Desktop,553,587,1140
+ms,-,Firefox,Windows,Desktop,434,428,862
+fy,-,IE,Windows,Desktop,1840,0,1840
+gv,[21/Feb/2020:22:31:47 +0000][for= \x22172.87.121.44\x22][][10.144.203.128][gv],AndroidBrowser,Android,Mobile,978,0,978
+mt,-,Dragon,Windows,Desktop,758,0,758
+ii,[21/Feb/2020:21:31:10 +0000][for= \x22109.42.128.21\x22][][10.144.203.128][ii],Opera,Windows,Desktop,803,854,1657
+gv,[21/Feb/2020:22:31:47 +0000][for= \x22172.87.121.44\x22][][10.144.203.128][gv],AndroidBrowser,Android,Mobile,803,0,803
+pi,-,IE,Windows,Desktop,0,954,954
+sg,-,Safari,iPhone,Mobile,799,0,799
+ku,-,IE,Windows,Desktop,843,0,843
+cv,-,IE,Windows,Desktop,0,1027,1027
+sg,[21/Feb/2020:21:33:03 +0000][for= \x2295.92.24.145\x22][][10.144.203.128][sg],Chrome,Mac,Desktop,942,979,1921
+pi,-,IE,Windows,Desktop,0,906,906
+sw,[21/Feb/2020:22:32:39 +0000][for= \x2291.115.130.54\x22][][10.144.203.128][sw],IE,Xbox,Console,1023,0,1023
+sl,[21/Feb/2020:22:31:20 +0000][for= \x22191.171.236.78\x22][][10.144.203.128][sl],Firefox,Mac,Desktop,363,337,700
+th,[21/Feb/2020:22:32:08 +0000][for= \x22255.228.218.200\x22][][10.144.203.128][th],IE,Windows,Desktop,815,0,815
+os,[21/Feb/2020:21:32:08 +0000][for= \x2242.201.82.98\x22][][10.144.203.128][os],IE,Windows,Desktop,0,904,904
+nn,[21/Feb/2020:21:31:19 +0000][for= \x2254.68.197.189\x22][][10.144.203.128][nn],Thunderbird,Windows,Desktop,0,665,665
+th,[21/Feb/2020:22:32:08 +0000][for= \x22255.228.218.200\x22][][10.144.203.128][th],IE,Windows,Desktop,819,0,819
+ve,-,GoogleSearchApp,iPhone,Mobile,0,924,924
+ds,[21/Feb/2020:23:21:52 +0000][for= \x22190.47.29.187\x22][][10.144.203.128][ds],Firefox,Android,Mobile,321,299,620
+tn,-,Lynx,Linux,Desktop,865,928,1793
+sm,-,Firefox,Mac,Desktop,1175,0,1175
+lt,-,Firefox,Linux,Desktop,454,473,927
+pl,-,Safari,Mac,Desktop,0,3646,3646
+ts,-,IE,Windows,Desktop,868,0,868
+lg,-,Firefox,Windows,Desktop,803,0,803
+hi,-,Chrome,Android,Mobile,332,379,711
+ak,[21/Feb/2020:21:32:24 +0000][for= \x22147.75.113.183\x22][][10.144.203.128][ak],TeslaBrowser,Tesla,Car,0,940,940
+tw,[21/Feb/2020:22:32:32 +0000][for= \x22245.202.66.78\x22][][10.144.203.128][tw],Chrome,Windows,Mobile,440,429,869
+ig,-,Dragon,Windows,Desktop,1243,0,1243
+ee,-,IE,Windows,Desktop,484,457,941
+ig,-,Safari,iPhone,Mobile,1149,0,1149
+mt,-,Dragon,Windows,Desktop,826,0,826
+cs,[21/Feb/2020:21:34:53 +0000][for= \x22177.45.191.64\x22][][10.144.203.128][cs],Chrome,Mac,Desktop,0,650,650
+pi,-,IE,Windows,Desktop,0,851,851
+cu,[21/Feb/2020:21:34:26 +0000][for= \x22128.51.197.103\x22][][10.144.203.128][cu],Chromium,Linux,Desktop,407,386,793
+ki,-,IE,Windows,Desktop,0,1245,1245
+ie,-,GoogleSearchApp,iPhone,Mobile,386,382,768
+cs,[21/Feb/2020:21:34:53 +0000][for= \x22177.45.191.64\x22][][10.144.203.128][cs],Chrome,Mac,Desktop,0,673,673
+ko,-,AOL,Windows,Desktop,0,1044,1044
+ko,-,AOL,Windows,Desktop,0,775,775
+ku,-,IE,Windows,Desktop,835,0,835
+tw,[21/Feb/2020:22:32:32 +0000][for= \x22245.202.66.78\x22][][10.144.203.128][tw],Chrome,Windows,Mobile,439,419,858
+th,-,IE,Windows,Desktop,401,400,801
+xh,-,Unknown,Unknown,Unknown,571,608,1179
+aa,-,Firefox,Android,Mobile,643,0,643
+li,-,Webkit,iPhone,Mobile,917,933,1850
+ar,[21/Feb/2020:22:33:41 +0000][for= \x2278.17.136.185\x22][][10.144.203.128][ar],Opera,Windows,Desktop,588,577,1165
+ff,-,Safari,Windows,Desktop,500,515,1015
+bm,-,NetscapeNavigator,Mac,Desktop,424,434,858
+th,[21/Feb/2020:22:32:08 +0000][for= \x22255.228.218.200\x22][][10.144.203.128][th],IE,Windows,Desktop,941,0,941
+io,-,Dragon,Windows,Desktop,362,378,740
+cu,[21/Feb/2020:21:34:26 +0000][for= \x22128.51.197.103\x22][][10.144.203.128][cu],Chromium,Linux,Desktop,451,412,863
+lu,-,Opera,Windows,Desktop,425,416,841
+as,-,IE,Windows,Desktop,0,934,934
+ie,-,GoogleSearchApp,iPhone,Mobile,430,411,841
+sd,[21/Feb/2020:23:19:38 +0000][for= \x2228.51.199.120\x22][][10.144.203.128][sd],Chrome,Android,Mobile,766,0,766
+tg,[21/Feb/2020:22:31:45 +0000][for= \x2296.22.23.175\x22][][10.144.203.128][tg],Chrome,Android,Mobile,1332,0,1332
+aa,-,Firefox,Android,Mobile,599,0,599
+pt,-,Dragon,Windows,Desktop,0,1321,1321
+ds,[21/Feb/2020:23:21:52 +0000][for= \x22190.47.29.187\x22][][10.144.203.128][ds],Firefox,Android,Mobile,323,325,648
+in,[21/Feb/2020:21:32:22 +0000][for= \x22200.214.217.93\x22][][10.144.203.128][in],Iceweasel,Linux,Desktop,0,1702,1702
+so,[21/Feb/2020:21:33:42 +0000][for= \x2283.254.200.113\x22][][10.144.203.128][so],Safari,Windows,Desktop,418,388,806
+ff,-,Safari,Windows,Desktop,496,472,968
+ng,-,IE,Windows,Desktop,406,349,755
+am,-,Chromium,Linux,Desktop,523,538,1061
+ch,-,Firefox,Android,Mobile,465,446,911
+ko,-,AOL,Windows,Desktop,0,829,829
+ce,-,Chrome,iPad,Mobile,317,343,660
+bi,[21/Feb/2020:21:34:18 +0000][for= \x2224.69.200.234\x22][][10.144.203.128][bi],Firefox,Windows,Desktop,540,501,1041
+gd,-,Chrome,Android,Mobile,0,882,882
+aa,-,Firefox,Android,Mobile,642,0,642
+lo,-,Firefox,iPod,Mobile,877,858,1735
+hi,-,Chrome,Android,Mobile,361,376,737
+tg,[21/Feb/2020:21:32:44 +0000][for= \x22138.42.133.161\x22][][10.144.203.128][tg],Opera,Windows,Desktop,378,401,779
+sd,[21/Feb/2020:23:19:38 +0000][for= \x2228.51.199.120\x22][][10.144.203.128][sd],Chrome,Android,Mobile,903,0,903
+sl,[21/Feb/2020:22:31:20 +0000][for= \x22191.171.236.78\x22][][10.144.203.128][sl],Firefox,Mac,Desktop,419,434,853
+sw,[21/Feb/2020:22:32:39 +0000][for= \x2291.115.130.54\x22][][10.144.203.128][sw],IE,Xbox,Console,1025,0,1025
+ur,[21/Feb/2020:23:21:22 +0000][for= \x22222.31.181.181\x22][][10.144.203.128][ur],Chromium,Linux,Desktop,856,0,856
+pi,-,IE,Windows,Desktop,0,837,837
+lo,-,Firefox,iPod,Mobile,950,944,1894
+ms,-,Firefox,Windows,Desktop,483,540,1023
+av,-,Elinks,Linux,Desktop,417,431,848
+ay,[21/Feb/2020:21:32:09 +0000][for= \x22109.179.29.22\x22][][10.144.203.128][ay],IE,WPhone,Mobile,362,377,739
+ch,-,Safari,Mac,Desktop,336,360,696
+ee,-,IE,Windows,Desktop,431,420,851
+gd,-,Chrome,Android,Mobile,0,1058,1058
+ch,-,Safari,Mac,Desktop,321,326,647
+so,[21/Feb/2020:21:33:42 +0000][for= \x2283.254.200.113\x22][][10.144.203.128][so],Safari,Windows,Desktop,406,405,811
+nn,[21/Feb/2020:21:31:19 +0000][for= \x2254.68.197.189\x22][][10.144.203.128][nn],Thunderbird,Windows,Desktop,0,758,758
+nn,[21/Feb/2020:21:31:19 +0000][for= \x2254.68.197.189\x22][][10.144.203.128][nn],Thunderbird,Windows,Desktop,0,647,647
+th,-,IE,Windows,Desktop,344,326,670
+ng,-,IE,Windows,Desktop,454,482,936
+bi,[21/Feb/2020:21:34:18 +0000][for= \x2224.69.200.234\x22][][10.144.203.128][bi],Firefox,Windows,Desktop,469,458,927
+ig,-,Dragon,Windows,Desktop,1242,0,1242
+ds,[21/Feb/2020:23:21:52 +0000][for= \x22190.47.29.187\x22][][10.144.203.128][ds],Firefox,Android,Mobile,322,352,674
+es,[21/Feb/2020:22:33:55 +0000][for= \x2216.93.179.168\x22][][10.144.203.128][es],GoogleSearchApp,iPhone,Mobile,0,624,624
+nn,[21/Feb/2020:21:34:40 +0000][for= \x2222.72.177.140\x22][][10.144.203.128][nn],Safari,Windows,Desktop,647,608,1255
+fa,[21/Feb/2020:22:34:13 +0000][for= \x22203.237.28.243\x22][][10.144.203.128][fa],AndroidBrowser,Android,Mobile,564,589,1153
+sq,-,Baidu,Windows,Desktop,331,376,707
+ay,[21/Feb/2020:21:32:09 +0000][for= \x22109.179.29.22\x22][][10.144.203.128][ay],IE,WPhone,Mobile,309,289,598
+ko,-,AOL,Windows,Desktop,0,970,970
+cs,[21/Feb/2020:21:34:53 +0000][for= \x22177.45.191.64\x22][][10.144.203.128][cs],Chrome,Mac,Desktop,0,677,677
+ig,-,Dragon,Windows,Desktop,1234,0,1234
+es,[21/Feb/2020:22:33:55 +0000][for= \x2216.93.179.168\x22][][10.144.203.128][es],GoogleSearchApp,iPhone,Mobile,0,707,707
+th,-,IE,Windows,Desktop,388,369,757
+io,-,Dragon,Windows,Desktop,348,326,674
+mt,-,Dragon,Windows,Desktop,562,0,562
+nr,[21/Feb/2020:21:31:48 +0000][for= \x22170.121.227.91\x22][][10.144.203.128][nr],Chromium,Linux,Desktop,562,570,1132
+os,[21/Feb/2020:21:32:08 +0000][for= \x2242.201.82.98\x22][][10.144.203.128][os],IE,Windows,Desktop,0,847,847
+pt,-,Dragon,Windows,Desktop,0,1207,1207
+sl,[21/Feb/2020:22:31:20 +0000][for= \x22191.171.236.78\x22][][10.144.203.128][sl],Firefox,Mac,Desktop,290,306,596
+ay,[21/Feb/2020:21:32:09 +0000][for= \x22109.179.29.22\x22][][10.144.203.128][ay],IE,WPhone,Mobile,357,384,741
+tw,[21/Feb/2020:22:32:32 +0000][for= \x22245.202.66.78\x22][][10.144.203.128][tw],Chrome,Windows,Mobile,377,390,767
+ts,-,IE,Windows,Desktop,865,0,865
+es,[21/Feb/2020:22:33:55 +0000][for= \x2216.93.179.168\x22][][10.144.203.128][es],GoogleSearchApp,iPhone,Mobile,0,945,945
+ky,[21/Feb/2020:22:32:25 +0000][for= \x2243.253.214.127\x22][][10.144.203.128][ky],SamsungBrowser,Samsung TV,TV,859,0,859
+az,[21/Feb/2020:21:33:11 +0000][for= \x2267.201.224.153\x22][][10.144.203.128][az],Firefox,Mac,Desktop,304,347,651
+lg,-,Firefox,Windows,Desktop,639,0,639
+az,[21/Feb/2020:21:33:11 +0000][for= \x2267.201.224.153\x22][][10.144.203.128][az],Firefox,Mac,Desktop,345,315,660
+bo,[21/Feb/2020:21:33:30 +0000][for= \x2212.199.95.237\x22][][10.144.203.128][bo],Firefox,iPhone,Mobile,910,0,910
+az,[21/Feb/2020:21:33:11 +0000][for= \x2267.201.224.153\x22][][10.144.203.128][az],Firefox,Mac,Desktop,417,434,851
+gv,[21/Feb/2020:22:31:47 +0000][for= \x22172.87.121.44\x22][][10.144.203.128][gv],AndroidBrowser,Android,Mobile,987,0,987
+io,[21/Feb/2020:21:31:06 +0000][for= \x22145.202.242.49\x22][][10.144.203.128][io],Firefox,Android,Mobile,497,429,926
+sq,-,Baidu,Windows,Desktop,416,404,820
+sl,[21/Feb/2020:22:31:20 +0000][for= \x22191.171.236.78\x22][][10.144.203.128][sl],Firefox,Mac,Desktop,370,358,728
+tw,[21/Feb/2020:22:32:32 +0000][for= \x22245.202.66.78\x22][][10.144.203.128][tw],Chrome,Windows,Mobile,359,342,701
+gv,[21/Feb/2020:22:31:47 +0000][for= \x22172.87.121.44\x22][][10.144.203.128][gv],AndroidBrowser,Android,Mobile,909,0,909
+nv,-,Dragon,Windows,Desktop,429,444,873
+ur,[21/Feb/2020:23:21:22 +0000][for= \x22222.31.181.181\x22][][10.144.203.128][ur],Chromium,Linux,Desktop,786,0,786
+sl,[21/Feb/2020:22:31:20 +0000][for= \x22191.171.236.78\x22][][10.144.203.128][sl],Firefox,Mac,Desktop,312,333,645
